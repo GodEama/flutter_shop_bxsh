@@ -24,11 +24,11 @@ class _HomePageState extends State<HomePage>
   int page = 1;
   List<HotGoodsModel> hotGoodsList = [];
 
-  @override
-  void initState() {
-    _getHotGoods();
-    super.initState();
-  }
+  // @override
+  // void initState() {
+  //   _getHotGoods();
+  //   super.initState();
+  // }
 
   @override
   Widget build(BuildContext context) {
